@@ -2,6 +2,13 @@ from copilot import CopilotClient
 from copilot.tools import Tool, ToolInvocation, ToolResult
 from copilot.session import PermissionHandler
 
+class EditFileParams(BaseModel):
+    path: str = Field(description="File path")
+    content: str = Field(description="New file content")
+
+@define_tool(name="edit_file", description="Custom file editor with project-specific validation", overrides_built_in_tool=True)
+async def edit_file(params: EditFileParams) -> str:
+    # your logic
 async def lookup_issue(invocation: ToolInvocation) -> ToolResult:
     issue_id = invocation.arguments["id"]
     issue = await fetch_issue(issue_id)
