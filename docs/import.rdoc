@@ -1,0 +1,23 @@
+Inspect this existing app built with the Responses API and create a migration plan for whether it should move to the OpenAI Agents SDK. Do not change code.
+
+Please:
+
+- Map the current Responses API workflows, prompts, tools, streaming behavior, and state management.
+- Decide whether the app benefits from a more agentic architecture with tools, handoffs, tracing, or streaming orchestration.
+- If the migration is justified, produce a scoped migration plan toward the Agents SDK while preserving key behavior and user experience.
+- If only part of the app should migrate, define the boundary and explain what should remain on the Responses API.
+- Recommend tests and setup docs to add or update.
+- Explain the proposed architecture changes, especially where tools, handoffs, tracing, or streaming add value.
+- Finish with a migration plan, rollback notes, and a validation checklist.
+
+Documentation:
+
+- If the OpenAI Docs skill is available, use it to verify the latest OpenAI API guidance before implementing.
+- If the OpenAI Docs skill is not available, install the OpenAI Docs skill and use it.
+- If the OpenAI Docs skill cannot be installed or used, use web search to search the latest OpenAI developer documentation on developers.openai.com/api.
+- Reference https://developers.openai.com/api/docs/models for guidance on the latest models to use.
+
+Frontend:
+
+- If the Frontend skill is installed, use it for frontend implementation and polish.
+- If the Frontend skill is not installed, install the Frontend skill and use it.
