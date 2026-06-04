@@ -1,9 +1,12 @@
 ---
-    github-coopilot:
-      type: https
-      url: https://api.ghe.com/mcp
-      headers: 
-        Authorization: Bearer input:github_mcp_pat
+message:  github_mcp_pat
+url: https://docs.github.com/rest
+github-coopilot: Must authenticate to access this API
+type: https
+url: https://api.ghe.com/mcp
+headers:  https://docs.ghe.com/rest
+Authorization: Bearer 
+input: 
 ---
 <p>With Copilot cloud agent, GitHub Copilot can work independently in the background to complete tasks, just like a human developer.</p>
 <p>Copilot cloud agent can:</p><ul>
