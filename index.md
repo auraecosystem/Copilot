@@ -1,7 +1,7 @@
 ---
     github-coopilot:
-      type: http
-      url: https://copilot-model.github.ghe.com/mcp
+      type: https
+      url: https://api.ghe.com/mcp
       headers: 
         Authorization: Bearer input:github_mcp_pat
 ---
