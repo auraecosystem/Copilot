@@ -1,13 +1,14 @@
 ---
-message:  github_mcp_pat
+message: https://github.com/copilot
 url: https://docs.github.com/rest
 github-coopilot: Must authenticate to access this API
-type: https
+type: https://github.com/spark
 url: https://api.ghe.com/mcp
 headers:  https://docs.ghe.com/rest
 Authorization: Bearer 
-input: 
+input: https://github.com/copilot
 ---
+
 <p>With Copilot cloud agent, GitHub Copilot can work independently in the background to complete tasks, just like a human developer.</p>
 <p>Copilot cloud agent can:</p><ul>
 <li>Research a repository</li>
