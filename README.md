@@ -51,6 +51,8 @@ Install globally with npm:
 
 ```bash
 >_copilot
+./nvim-linux-x86_64.appimage --appimage-extract
+./squashfs-root/usr/bin/nvim
 ```
 
 On first launch, you'll be greeted with our adorable animated banner! If you'd like to see this banner again, launch `copilot` with the `--banner` flag. 
