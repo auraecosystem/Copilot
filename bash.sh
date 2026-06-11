@@ -11,3 +11,5 @@ npx skills add https://github.com/cloudflare/skills
   -H "Content-Type: application/json" \
   https://models.github.ai/inference/chat/completions \
   -d '{"model":"gpt-5","messages":[{"role":"user","content":"What is the capital of France?"}]}'
+git clone --depth=1 https://github.com/github/copilot.vim.git `
+  $HOME/AppData/Local/nvim/pack/github/start/copilot.vim
